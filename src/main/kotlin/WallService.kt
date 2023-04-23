@@ -1,6 +1,6 @@
 object WallService {
 
-    var posts = emptyArray<Post>()
+    private var posts = emptyArray<Post>()
 
     fun clear() {
         posts = emptyArray()
